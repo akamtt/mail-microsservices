@@ -6,9 +6,11 @@ const cors = require('cors');
 
 const db = require("./db/db");
 const app = express();
+const routes = require("./routes/user/Index.Routes")
 
 app.use(express.json());
 app.use(helmet());
+app.use(routes);
 app.use(() => morgan('tiny'));
 app.use(() => cors());
 
