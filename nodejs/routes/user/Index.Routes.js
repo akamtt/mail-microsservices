@@ -1,6 +1,6 @@
 const express = require("express");
 const routes = express.Router();
-const userController = require('../../controller/userController');
+const userController = require('../../controller/user/userController');
 
 routes.get("/", (req, res) => {
   return res.json({ name: "MAIL-MICROSSERVICES" });
