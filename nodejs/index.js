@@ -6,7 +6,6 @@ const cors = require('cors');
 
 const app = express();
 app.use(express.json());
-app.use(routes);
 app.use(helmet());
 app.use(() => morgan('tiny'));
 app.use(() => cors());
