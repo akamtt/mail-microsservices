@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/FagundesOliveira/mail-microsservices#readme",
   "dependencies": {
+    "amqplib": "^0.8.0",
     "cors": "^2.8.5",
     "dotenv": "^14.3.2",
     "express": "^4.17.2",
